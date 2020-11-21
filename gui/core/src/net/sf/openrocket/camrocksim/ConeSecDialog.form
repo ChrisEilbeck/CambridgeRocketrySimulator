@@ -1,0 +1,295 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="ConTranSpecTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="ConTranNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ConTranLengthLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ConTranUDLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ConTranDDLable" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ConTranThickLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ConTranMassLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ConTranPosLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="ConTranPosText" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="ConTranNameText" alignment="0" pref="136" max="32767" attributes="1"/>
+                                      <Component id="ConTranLengthText" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="ConTranUDText" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="ConTranDDText" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="ConTranThickText" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="ConTranMassText" alignment="0" max="32767" attributes="1"/>
+                                  </Group>
+                                  <Component id="ConTranRadPosText" alignment="0" pref="119" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="ConTranThickUnit" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="ConTranMassUnit" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ConTranPosUnit" alignment="0" max="32767" attributes="1"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="ConTranDDUnit" alignment="1" max="32767" attributes="1"/>
+                                      <Component id="ConTranUDUnit" alignment="1" max="32767" attributes="1"/>
+                                      <Component id="ConTranLengthUnit" alignment="1" max="32767" attributes="1"/>
+                                  </Group>
+                                  <Component id="ConTranRefDUnit" alignment="0" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      <Component id="ConTranAddButton" min="-2" pref="86" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="ConTranCancelButton" min="-2" pref="84" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="37" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ConTranRadPosLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ConTranSpecTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConTranNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConTranLengthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranLengthText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranLengthUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConTranUDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranUDText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranUDUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConTranDDLable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranDDText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranDDUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConTranThickLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranThickText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranThickUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConTranMassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranMassText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranMassUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConTranPosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranPosText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranPosUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConTranRadPosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranRefDUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranRadPosText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ConTranAddButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ConTranCancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="ConTranCancelButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ConTranCancelButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranThickUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="ConTranAddButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ConTranAddButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranMassUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="kg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranPosUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranUDUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranDDUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranRadPosLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Radial Position"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ConTranRadPosText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ConTranRadPosTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranLengthUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ConTranPosText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ConTranPosTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ConTranMassText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ConTranMassTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ConTranThickText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ConTranThickTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ConTranDDText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ConTranDDTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ConTranUDText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ConTranUDTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ConTranLengthText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ConTranLengthTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ConTranNameText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ConTranNameTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranThickLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wall Thickness"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranPosLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Position"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranMassLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mass"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranDDLable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Downstream Diameter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranUDLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Upstream Diameter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranLengthLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Length"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranSpecTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Set cone section specifications"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ConTranRefDUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="?"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

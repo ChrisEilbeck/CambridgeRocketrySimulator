@@ -1,0 +1,11 @@
+# ignore output files
+*.o
+
+# ignore binary
+rocketc
+
+# ignore test binary
+runtests
+
+# ignore googletest directory
+googletest-release-*

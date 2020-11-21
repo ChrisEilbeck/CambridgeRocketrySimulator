@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Motor><Name>K570</Name><Length>0.455</Length><Diameter>0.054</Diameter><LoadedMass>1.685</LoadedMass><DryMass>0.652</DryMass><Time>0.0, 0.04, 0.5, 1.0, 1.5, 2.0, 2.5, 2.97, 3.2, 3.47, 3.59</Time><Thrust>0.0, 892.67, 797.99, 738.68, 659.37, 585.96, 512.88, 417.16, 224.79, 67.0, 0.0</Thrust></Motor>

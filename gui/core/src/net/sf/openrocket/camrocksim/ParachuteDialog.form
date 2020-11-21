@@ -1,0 +1,334 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ParaTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="279" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="58" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ParaAreaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaCDLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaLengthLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaDiamLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaMassLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaPosLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="ParaNameText" max="32767" attributes="1"/>
+                          <Component id="ParaAreaText" alignment="0" pref="117" max="32767" attributes="1"/>
+                          <Component id="ParaCDText" alignment="0" max="32767" attributes="1"/>
+                          <Component id="ParaLengthText" alignment="0" max="32767" attributes="1"/>
+                          <Component id="ParaDiamText" alignment="0" max="32767" attributes="1"/>
+                          <Component id="ParaMassText" alignment="0" max="32767" attributes="1"/>
+                          <Component id="ParaPosText" alignment="0" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ParaPositionUnits" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaMassUnits" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaDiamUnits" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaLengthUnits" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaAreaUnits" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="ParaDeployTitle" min="-2" max="-2" attributes="0"/>
+                  <Component id="ParaDcondLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ParaAltitude" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="ParaAltitudeText" min="-2" pref="100" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ParaAltitudeUnits" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="ParaApogee" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="58" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="293" max="32767" attributes="0"/>
+              <Component id="ParaAddButtoon" min="-2" pref="99" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Component id="ParaCancelButton" min="-2" pref="98" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="36" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" max="-2" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ParaTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ParaDeployTitle" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="ParaNameLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaNameText" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" max="-2" attributes="0">
+                          <Component id="ParaAreaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaAreaText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaAreaUnits" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" max="-2" attributes="0">
+                          <Component id="ParaCDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaCDText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" max="-2" attributes="0">
+                      <Component id="ParaDcondLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="ParaApogee" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" max="-2" attributes="0">
+                          <Component id="ParaAltitude" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaAltitudeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ParaAltitudeUnits" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" max="-2" attributes="0">
+                  <Component id="ParaLengthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ParaLengthText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ParaLengthUnits" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" max="-2" attributes="0">
+                  <Component id="ParaDiamLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ParaDiamText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ParaDiamUnits" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" max="-2" attributes="0">
+                  <Component id="ParaMassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ParaMassText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ParaMassUnits" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ParaPosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ParaPosText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ParaPositionUnits" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ParaAddButtoon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ParaCancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="ParaTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Set Parachute Specifications"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaAreaLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parachute Area"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaCDLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Coeficient of Drag (CD)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaLengthLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Packed Length"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaDiamLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Packed Diameter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaMassLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mass"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaPosLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Position"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ParaAreaText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ParaAreaTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ParaCDText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ParaCDTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ParaLengthText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ParaLengthTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ParaDiamText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ParaDiamTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ParaMassText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ParaMassTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ParaPosText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ParaPosTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ParaNameText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ParaNameTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ParaAddButtoon">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ParaAddButtoonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ParaCancelButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ParaCancelButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaAreaUnits">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;m&lt;sup&gt;2&lt;/sup&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaLengthUnits">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaDiamUnits">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaMassUnits">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="kg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaPositionUnits">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaDeployTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Set Deployment Conditions"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaDcondLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Paracute deploys at:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ParaApogee">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Apogee"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ParaApogeeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="ParaAltitude">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Altitude"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ParaAltitudeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ParaAltitudeText">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ParaAltitudeTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ParaAltitudeUnits">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="?"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,289 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="TitleLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="MotorDiameterLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorLengthLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorLMassLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorDMassLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="MotorNameText" min="-2" pref="164" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="MotorDiamterText" alignment="0" pref="151" max="32767" attributes="0"/>
+                                  <Component id="MotorLengthText" alignment="1" pref="151" max="32767" attributes="0"/>
+                                  <Component id="MotorLMassText" alignment="0" pref="151" max="32767" attributes="0"/>
+                                  <Component id="MotorDMassText" alignment="0" pref="151" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="MotorDMassDim" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MotorLMassDim" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MotorDiameterDim" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MotorLengthDim" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="TableLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="255" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
+              <Component id="MotorSaveButton" min="-2" pref="133" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="MotorCancelButton" min="-2" pref="117" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace pref="224" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="TableLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="198" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="TitleLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MotorNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MotorLengthText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorLengthDim" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorLengthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MotorDiamterText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorDiameterLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorDiameterDim" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MotorLMassText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorLMassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorLMassDim" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="MotorDMassText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorDMassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="MotorDMassDim" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="75" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="MotorSaveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="MotorCancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="ThrustTimeTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="2" rowCount="1000">
+                <Column editable="true" title="Time (s)" type="java.lang.Object"/>
+                <Column editable="true" title="Thrust (N)" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="3">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="columnSelectionAllowed" type="boolean" value="true"/>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ThrustTimeTableMouseClicked"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ThrustTimeTableMouseExited"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ThrustTimeTableMouseEntered"/>
+            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ThrustTimeTableFocusLost"/>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="ThrustTimeTablePropertyChange"/>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="ThrustTimeTableKeyPressed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="TitleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Define a new motor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MotorNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MotorNameText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="MotorNameTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MotorLengthLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Length"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MotorLengthText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="MotorLengthTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MotorLengthDim">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MotorDiameterLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Diameter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MotorDiamterText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="MotorDiamterTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MotorDiameterDim">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MotorLMassLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Loaded Mass"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MotorLMassText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="MotorLMassTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MotorDMassText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="MotorDMassTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MotorDMassLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Empty Mass"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MotorLMassDim">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="kg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MotorDMassDim">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="kg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TableLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Thrust - time data"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="MotorSaveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseReleased" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="MotorSaveButtonMouseReleased"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MotorSaveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="MotorCancelButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MotorCancelButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="?"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

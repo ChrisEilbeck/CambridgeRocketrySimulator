@@ -1,0 +1,237 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.6" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="BTubeSpecTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="BTubeNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="BTubeLengthLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="BTubeIDLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="BTubeODLable" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="BTubeMassLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="BTubePosLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="BTubeNameText" alignment="0" pref="136" max="32767" attributes="1"/>
+                          <Component id="BTubeLengthText" alignment="0" max="32767" attributes="1"/>
+                          <Component id="BTubeIDText" alignment="0" max="32767" attributes="1"/>
+                          <Component id="BTubeODText" alignment="0" max="32767" attributes="1"/>
+                          <Component id="BTubeMassText" alignment="0" max="32767" attributes="1"/>
+                          <Component id="BTubePosText" alignment="0" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="BTubePosUnit" min="-2" max="-2" attributes="0"/>
+                          <Component id="BTubeMassUnit" min="-2" max="-2" attributes="0"/>
+                          <Component id="BTubeODUnit" min="-2" max="-2" attributes="0"/>
+                          <Component id="BTubeIDUnit" min="-2" max="-2" attributes="0"/>
+                          <Component id="BTubeLengthUnit" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="86" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jButton2" min="-2" pref="84" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jButton3" pref="49" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="BTubeSpecTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BTubeNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTubeNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BTubeLengthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTubeLengthText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTubeLengthUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BTubeIDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTubeIDText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTubeIDUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BTubeODLable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTubeODText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTubeODUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BTubeMassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTubeMassText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTubeMassUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BTubePosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTubePosText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BTubePosUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="36" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="BTubeSpecTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Set body tube specifications"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BTubeNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BTubeLengthLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Length"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BTubeIDLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Inner Diameter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BTubeODLable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Outer Diameter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BTubeMassLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mass"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BTubePosLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Position"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BTubeNameText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="BTubeNameTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BTubeLengthText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="BTubeLengthTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BTubeIDText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="BTubeIDTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BTubeODText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="BTubeODTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BTubeMassText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="BTubeMassTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BTubePosText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="BTubePosTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BTubeLengthUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BTubeIDUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BTubeODUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BTubeMassUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="kg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BTubePosUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="?"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

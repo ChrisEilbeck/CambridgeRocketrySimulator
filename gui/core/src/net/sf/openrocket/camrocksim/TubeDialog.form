@@ -1,0 +1,267 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.6" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="TubeSpecTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="TubeNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TubeLengthLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TubeIDLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TubeODLablel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TubeMassLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TubePosLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="TubeRadPosText" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="TubeNameText" alignment="0" pref="136" max="32767" attributes="1"/>
+                                  <Component id="TubeLengthText" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="TubeIDText" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="TubeODText" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="TubeMassText" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="TubePosText" alignment="0" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="TubeRadPosUnit" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TubePosUnit" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TubeMassUnit" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TubeODUnit" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TubeIDUnit" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TubeLengthUnit" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                      <Component id="AddTubeButton" min="-2" pref="86" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="CancelTubeButton" min="-2" pref="84" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="31" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="TubeRadPosLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="58" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TubeSpecTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TubeNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubeNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TubeLengthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubeLengthText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubeLengthUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TubeIDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubeIDText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubeIDUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TubeODLablel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubeODText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubeODUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TubeMassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubeMassText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubeMassUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TubePosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubePosText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubePosUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TubeRadPosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubeRadPosText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TubeRadPosUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="58" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AddTubeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CancelTubeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="TubeSpecTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Set tube specifications"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubeNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubeLengthLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Length"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubeIDLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Inner Diameter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubeODLablel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Outer Diameter"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubeMassLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mass"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubePosLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Position"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TubeNameText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="TubeNameTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TubeLengthText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="TubeLengthTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TubeIDText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="TubeIDTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TubeODText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="TubeODTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TubeMassText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="TubeMassTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TubePosText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="TubePosTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubeLengthUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubeIDUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubeODUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubeMassUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="kg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubePosUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="AddTubeButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddTubeButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="CancelTubeButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CancelTubeButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubeRadPosLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Radial Position"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TubeRadPosText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="TubeRadPosTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TubeRadPosUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="?"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

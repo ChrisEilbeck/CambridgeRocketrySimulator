@@ -1,0 +1,338 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.6" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="FinsetSpecTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="FinsetRCLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="FinsetFinNumLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="FinsetTCLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="FinsetSpanLable" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="FinsetSweepLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="FinsetBDLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="FinsetThickLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="FinsetMassLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="FinsetPosLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="FinsetNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="FinsetPosText" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="FinsetMassText" alignment="0" pref="134" max="32767" attributes="1"/>
+                                      <Component id="FinsetFinNumComboBox" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="FinsetTCText" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="FinsetSpanText" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="FinsetSweepText" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="FinsetBDText" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="FinsetRCText" alignment="0" pref="135" max="32767" attributes="1"/>
+                                      <Component id="FinsetThickText" alignment="0" max="32767" attributes="1"/>
+                                  </Group>
+                                  <Component id="FinsetNameText" pref="135" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="FinsetRCUnit" alignment="0" pref="97" max="32767" attributes="1"/>
+                                  <Component id="FinsetTCUnit" alignment="0" pref="97" max="32767" attributes="1"/>
+                                  <Component id="FinsetSpanUnit" alignment="0" pref="97" max="32767" attributes="1"/>
+                                  <Component id="FinsetBDUnit" alignment="0" pref="97" max="32767" attributes="1"/>
+                                  <Component id="FinsetSweepUnit" alignment="0" pref="97" max="32767" attributes="1"/>
+                                  <Component id="FinsetThickUnit" alignment="0" pref="97" max="32767" attributes="1"/>
+                                  <Component id="FinsetMassUnit" alignment="0" pref="97" max="32767" attributes="1"/>
+                                  <Component id="FinsetPosUnit" alignment="0" pref="97" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="FinsetAddButton" min="-2" pref="86" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="FinsetCancelButton" min="-2" pref="84" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="46" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="FinsetSpecTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FinsetNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetNameText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FinsetFinNumComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetFinNumLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FinsetRCText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetRCLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetRCUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FinsetTCText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetTCLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetTCUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FinsetSpanText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetSpanLable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetSpanUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FinsetSweepText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetSweepLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetSweepUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FinsetBDText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetBDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetBDUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FinsetThickText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetThickLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetThickUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FinsetMassText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetMassLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetMassUnit" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FinsetPosText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetPosLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetPosUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="FinsetAddButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FinsetCancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="FinsetSpecTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Set finset specifications"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetFinNumLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of Fins"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetRCLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Root Chord"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetTCLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tip Chord"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetSpanLable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Span"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetSweepLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sweep"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetBDLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Body Diameter At Fins"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetThickLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Thickness"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetMassLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mass"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetPosLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Position"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FinsetNameText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FinsetNameTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="FinsetFinNumComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="3"/>
+            <StringItem index="1" value="4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FinsetRCText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FinsetRCTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FinsetTCText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FinsetTCTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FinsetSpanText">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FinsetSpanTextActionPerformed"/>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FinsetSpanTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FinsetSweepText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FinsetSweepTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FinsetBDText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FinsetBDTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FinsetThickText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FinsetThickTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FinsetMassText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FinsetMassTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FinsetPosText">
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="FinsetPosTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetRCUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetTCUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetSpanUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetBDUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetThickUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetMassUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="kg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetPosUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="FinsetSweepUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="FinsetAddButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FinsetAddButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="FinsetCancelButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FinsetCancelButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="?"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
