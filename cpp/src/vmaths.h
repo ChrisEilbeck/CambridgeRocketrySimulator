@@ -143,5 +143,4 @@ for vmaths.cpp*/
 			vector3 operator * (vector3);
 			matrix3x3 operator * (double);
 	};
-	
 #endif
