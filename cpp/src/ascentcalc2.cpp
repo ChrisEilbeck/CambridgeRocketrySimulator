@@ -1,11 +1,10 @@
 /*
-%## Copyright (C) 2008 S.Box
-
-
-%## ascentcalc2.cpp
-
-%## Author: S.Box
-%## Created: 2008-05-27
+	%## Copyright (C) 2008 S.Box
+	
+	%## ascentcalc2.cpp
+	
+	%## Author: S.Box
+	%## Created: 2008-05-27
 */
 
 #include "ascentcalc.h"
@@ -27,9 +26,9 @@ FlightDataShort ascent::getShortData(void)
 	try
 	{
 // 		if(DatPop!=true)	{	throw 20;	}
-
+		
 		tempdat.time=RKd1.t;
-
+		
 		// store last time only as event
 		double end_time = RKd1.t.back();
 		
@@ -56,25 +55,25 @@ FlightDataLong ascent::getLongData(void)
 {
 	/*
 		\brief function to obtain the flight data
-
+		
 		converts the states obtained with RKF_data to FlightData*
-
+		
 		\return FlightDataLong
 	*/
-
+	
 	FlightDataLong tempdat;
-
+	
 	try
 	{
 		if(DatPop != true)	{	throw 20;	}
-
+		
 		tempdat.time=RKd1.t;
-
+		
 		// store last time only as event
 		double end_time = RKd1.t.back();
 		//cout << end_time << endl;
 		tempdat.events.push_back( end_time );
-
+		
 		vector<vector<double> >::iterator z_it;
 		vector<double>::iterator t_it;
 		t_it=tempdat.time.begin();
@@ -83,9 +82,9 @@ FlightDataLong ascent::getLongData(void)
 		{
 			vector<double> z = *z_it;
 			double tt = *t_it;
-
+			
 			EqMotionData EMD = SolveEqMotion(tt,z);
-
+			
 			//Outputs*************************************************
 			tempdat.alpha.push_back(EMD.alpha);
 			tempdat.Thrust.push_back(EMD.Thrust);

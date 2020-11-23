@@ -150,7 +150,7 @@ void FlightData::ApogeeLanding(std::vector<double> * ApoP, std::vector<double> *
 {
 	double apogee[3] = {0.0,0.0,0.0};
 	double Apotime = 0.0;
-
+	
 	vector<double>::iterator t_it;
 	t_it = time.begin();
 	for (vector<vector3>::iterator Z_it = X.begin(); Z_it != X.end(); Z_it++)
@@ -166,7 +166,7 @@ void FlightData::ApogeeLanding(std::vector<double> * ApoP, std::vector<double> *
 		
 		t_it++;
 	}
-
+	
 	ApoP->push_back(apogee[0]);
 	ApoP->push_back(apogee[1]);
 	ApoP->push_back(apogee[2]);
@@ -211,7 +211,7 @@ void FlightDataLong::SpeedAndG(double* Sp,double* Gp)
 {
 	/*
 		\brief function to obtain maximum speed and g-forces
-
+		
 		\return void
 	*/
 	double MaxSpeed = 0;
@@ -224,7 +224,7 @@ void FlightDataLong::SpeedAndG(double* Sp,double* Gp)
 			MaxSpeed = MSP;
 		}
 	}
-
+	
 	double Maxg = 0;
 	for (vector<vector3>::iterator Z_it = Xddot.begin(); Z_it != Xddot.end(); Z_it++)
 	{
@@ -237,7 +237,7 @@ void FlightDataLong::SpeedAndG(double* Sp,double* Gp)
 	}
 	
 	Maxg = Maxg/9.81;
-
+	
 	*Sp = MaxSpeed;
 	*Gp = Maxg;
 }
