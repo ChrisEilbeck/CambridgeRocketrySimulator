@@ -23,14 +23,16 @@ FlightDataShort ascent::getShortData(void)
 	*/
 	
 	FlightDataShort tempdat;
+	
 	try
 	{
-		if (DatPop != true){throw 20;}
+// 		if(DatPop!=true)	{	throw 20;	}
 
 		tempdat.time=RKd1.t;
 
 		// store last time only as event
 		double end_time = RKd1.t.back();
+		
 		//cout << end_time << endl;
 		tempdat.events.push_back( end_time );
 
@@ -53,11 +55,11 @@ FlightDataShort ascent::getShortData(void)
 FlightDataLong ascent::getLongData(void) 
 {
 	/*
-	\brief function to obtain the flight data
+		\brief function to obtain the flight data
 
-	converts the states obtained with RKF_data to FlightData*
+		converts the states obtained with RKF_data to FlightData*
 
-	\return FlightDataLong
+		\return FlightDataLong
 	*/
 
 	FlightDataLong tempdat;
