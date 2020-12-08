@@ -14,4 +14,5 @@ cp -r Data ~/.camrocsim/
 cp -r simulator ~/.camrocsim/
 cp -r Plotter ~/.camrocsim/
 
-echo "succces"
+echo "succcess"
+
