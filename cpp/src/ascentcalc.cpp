@@ -339,7 +339,7 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 	{
 		Cd=interper.two(an,Ren,Cddat,alpha,Re);
 	}
-	else if(	(alpha<an.back()
+	else if(		(alpha<an.back())
 			&&	(alpha>=0.0)
 			&&	(Re>=Ren.back())	)
 	{
