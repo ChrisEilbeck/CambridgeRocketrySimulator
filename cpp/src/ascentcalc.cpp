@@ -25,7 +25,7 @@ ascent::ascent(vector<double> v1, vector<double> v2, INTAB IT1, double d1)
 		\return void
 	*/
 	
-	tt=v1,
+	tt=v1;
 	z0=v2;
 	intab1=IT1.intab1;
 	intab2=IT1.intab2;
@@ -44,7 +44,7 @@ ascent::ascent(vector<double> v1, vector<double> v2, INTAB IT1, double d1)
 
 //BLASTOFF Builder****************************
 
-blastoff::blastoff(INTAB1 IT1,INTAB2 IT2,INTAB3 IT3,INTAB4 IT4,double d1,double d2,double d3,vector3 v1,KillSwitch k1)
+simulation::simulation(INTAB1 IT1,INTAB2 IT2,INTAB3 IT3,INTAB4 IT4,double d1,double d2,double d3,vector3 v1,KillSwitch k1)
 {
 	/*
 		\brief initialise the start
@@ -86,7 +86,7 @@ RKF_data ascent::fly(void)
 		\return RKF_data
 	*/
 	
-	blastoff flight1(intab1,intab2,intab3,intab4,RBL,Ar,RL,X0,Kill);
+	simulation flight1(intab1,intab2,intab3,intab4,RBL,Ar,RL,X0,Kill);
 	
 	integrator* pflight1=&flight1;
 	
@@ -131,7 +131,7 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 	{
 		if(z[i]!=z[i])
 		{
-			cout << i << endl;
+			cout<<i<<endl;
 		}
 	}
 	
@@ -162,8 +162,8 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 	
 	//INTAB1*******************************************************************
 	interp interper;
-	vector<double> t=intab1.time; //Get time data from input table
-	//t=scaladd(t,ig_delay); ig_delay not currently implemented. To be added later
+	vector<double> t=intab1.time;	// Get time data from input table
+	//t=scaladd(t,ig_delay);		// ig_delay not currently implemented. To be added later
 	
 	double Ti,Mi,Ixxi,Iyyi,Izzi,Ixyi,Ixzi,Iyzi,Xcmi,Cda1;
 	
@@ -180,7 +180,7 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 		Xcmi=intab1.Xcm.front();
 		Cda1=intab1.Cda1.front();
 	}
-	else if ( ( tt<t.back() ) && ( tt>t.front() ) ) 
+	else if((tt<t.back())&&(tt>t.front())) 
 	{
 		Ti=interper.one(t,intab1.Thrust,tt); // Thrust-time data
 		Mi=interper.one(t,intab1.Mass,tt);   // Mass-time data
@@ -218,7 +218,9 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 		Wxi=interper.one(ztb,intab4.Wx,zn);		//Wind velocity vector
 		Wyi=interper.one(ztb,intab4.Wy,zn);		//"
 		Wzi=interper.one(ztb,intab4.Wz,zn);		//"
+		
 		rho=interper.one(ztb,intab4.rho,zn);	//Atmospheric density
+		
 		temp=interper.one(ztb,intab4.temp,zn);	//Atmospheric Temperature
 	} 
 	else if(zn>ztb.back()) 
@@ -226,7 +228,9 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 		Wxi=intab4.Wx.back();
 		Wyi=intab4.Wy.back();
 		Wzi=intab4.Wz.back();
+		
 		rho=intab4.rho.back();
+		
 		temp=intab4.temp.back();
 	}
 	else if(zn<ztb.front()) 
@@ -234,7 +238,9 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 		Wxi=intab4.Wx.front();
 		Wyi=intab4.Wy.front();
 		Wzi=intab4.Wz.front();
+		
 		rho=intab4.rho.front();
+		
 		temp=intab4.temp.front();
 	}
 	else 
@@ -242,10 +248,13 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 		Wxi=0.0;
 		Wyi=0.0;
 		Wzi=0.0;
+		
 		temp=288;
 		double Pressure=0.002488*pow((temp/216.6),-11.388);
 		rho=Pressure/287*temp;
-		cout << "warning: problem with atmosphere." << endl;
+		
+		cout<<"warning: problem with atmosphere."<<endl;
+		
 /*
 		temp =(-131.21+(0.00299*zn))+273.15;
 		double Pressure=0.002488*pow((temp/216.6),-11.388);
@@ -254,61 +263,53 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 	}
 	
 	//Calculate angle of attack (alpha)****************************************
-	vector3 Pt=vector3(Px,Py,Pz); 									// Rocket momentum vector
-	vector3 Xt=vector3(xn,yn,zn);									// Position vector
-	quaternion qt=quaternion(s,vx,vy,vz);							//Quaternion
-	vector3 Lt=vector3(Ltheta,Lphi,Lpsi);							//Rotational momentum vector
-	matrix3x3 Ibody(Ixxi,Ixyi,Ixzi,Ixyi,Iyyi,Iyzi,Ixzi,Iyzi,Izzi);	//Inertia tensor
-
-	vector3 Wt;
-	if ((Xt-X0).mag()<=RL)
-	{
-		vector3 Wpre(0.0,0.0,0.0);
-		Wt = Wpre;
-	}
-	else
-	{
-		vector3 Wpre(Wxi,Wyi,Wzi);
-		Wt = Wpre; // Wind vector
-	}
-
+	vector3 Pt=vector3(Px,Py,Pz); 										// Rocket momentum vector
+	vector3 Xt=vector3(xn,yn,zn);										// Position vector
+	quaternion qt=quaternion(s,vx,vy,vz);								// Quaternion
+	vector3 Lt=vector3(Ltheta,Lphi,Lpsi);								// Rotational momentum vector
+	matrix3x3 Ibody(Ixxi,Ixyi,Ixzi,Ixyi,Iyyi,Iyzi,Ixzi,Iyzi,Izzi);		// Inertia tensor
+	vector3 Wt;															// Wind vector
+	
+	if((Xt-X0).mag()<=RL)	{	vector3 Wpre(0.0,0.0,0.0);	Wt=Wpre;	}
+	else					{	vector3 Wpre(Wxi,Wyi,Wzi);	Wt=Wpre;	}
+	
 	vector3 Ut=Pt/Mi;				// Rocket earth relative velocity vector
 	vector3 Vt=Ut+Wt;				// Rocket atmosphere relative velocity vector
-
-	qt=qt.norm();					//Normalise the quaternion
-
-	s=qt.e1;						//quaternion scalar part;
-	vector3 vt(qt.e2,qt.e3,qt.e4);	//quaternion vector part
-
-	matrix3x3 Rt=qt.to_matrix();	//Transform quaternion to rotation matrix
-
+	
+	qt=qt.norm();					// Normalise the quaternion
+	
+	s=qt.e1;						// quaternion scalar part;
+	vector3 vt(qt.e2,qt.e3,qt.e4);	// quaternion vector part
+	
+	matrix3x3 Rt=qt.to_matrix();	// Transform quaternion to rotation matrix
+	
 	vector3 YA=Rt*YA0;				// Yaw axis vector
 	vector3 PA=Rt*PA0;				// Pitch axis vector
 	vector3 RA=Rt*RA0;				// Roll axis vector
-
+	
 	double Utmag=Ut.mag();			// Rocket earth reference velocity
 	double Vtmag=Vt.mag();			// Rocket atmosphere reference velocity
-
+	
 	vector3 RAnorm=RA.norm();		// Normalized vector of the rockets roll axis
 	vector3 Vtnorm=Vt.norm();		// Normalized vector of atmosphere relative velocity
-
+	
 	double alpha;
-
+	
 	// Calculate angle of attack alpha
-	if (Vtmag==0.0) 
+	if(Vtmag==0.0) 
 	{
-		alpha = 0.0;
+		alpha=0.0;
 	}
 	else 
 	{
-		double dprod = Vtnorm.dot(RAnorm);
+		double dprod=Vtnorm.dot(RAnorm);
 		if(dprod>1)		{	dprod=1;	}
 		if(dprod<-1)	{	dprod=-1;	}
 		
 		alpha=acos(dprod);
 	}
 
-	double Re = rho*Utmag*RBL / mu; // Calculate Reynolds number
+	double Re=rho*Utmag*RBL/mu; // Calculate Reynolds number
 
 	//********************************************************
 
@@ -483,14 +484,15 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 	vector3 Tqt(0.0,0.0,0.0);									//Total Torque Vector
 	vector3 gt(0.0,0.0,-mg);									//gravity vector
 	
-	Ft = Tt + FAt + FNt + gt;
+	// sum the forces acting on the rocket
+	Ft=Tt+FAt+FNt+gt;
 	
 	if ( (Ft.e3 <= 0.0) && ((Xt - X0).mag() < 0.1) ) 
 	{
-		Ft.e1=0.0; Ft.e2=0.0; Ft.e3=0.0;
+		Ft.e1=0.0; 	Ft.e2=0.0; 	Ft.e3=0.0;
 	} // Solid base to launch pad ** change zn < 0.1 in future
 	
-	if ( (Xt-X0).mag()<=RL )
+	if((Xt-X0).mag()<=RL)
 	{ 
 		//Rocket constrained on rail
 	} 
@@ -501,28 +503,29 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 	
 	// OUTPUT
 	EqMotionData Output;
-	Output.alpha = alphacp;
-	Output.Thrust = Ti;
-	Output.Mass = Mi;
-	Output.CofM = Xcmi;
-	Output.aDensity = rho;
-	Output.aTemp = temp;
-	Output.X = Xt;
-	Output.Raxis = RAnorm;
-	Output.Xdot = Ut;
-	Output.Thetadot = omegat;
-	Output.Xddot = Ft/Mi;
-	Output.Thetaddot = Itinv*Tqt;
-	Output.Force =Ft;
-	Output.Torque = Tqt;
-	Output.Wind = Wt;
-	Output.Inertia = Ibody;
-	Output.Qdot = Qdot;
+	
+	Output.alpha=alphacp;
+	Output.Thrust=Ti;
+	Output.Mass=Mi;
+	Output.CofM=Xcmi;
+	Output.aDensity=rho;
+	Output.aTemp=temp;
+	Output.X=Xt;
+	Output.Raxis=RAnorm;
+	Output.Xdot=Ut;
+	Output.Thetadot=omegat;
+	Output.Xddot=Ft/Mi;
+	Output.Thetaddot=Itinv*Tqt;
+	Output.Force=Ft;
+	Output.Torque=Tqt;
+	Output.Wind=Wt;
+	Output.Inertia=Ibody;
+	Output.Qdot=Qdot;
 
 	return(Output);
 };
 
-bool blastoff::stop_flag(double t,vector<double> z)
+bool simulation::stop_flag(double t,vector<double> z)
 {
 	/*
 		\brief checks for stop_flag
@@ -536,6 +539,7 @@ bool blastoff::stop_flag(double t,vector<double> z)
 	*/
 	
 	bool temp;
+	
 	if(z[Kill.index]<Kill.Kval)
 		temp=true;
 	else
@@ -544,8 +548,8 @@ bool blastoff::stop_flag(double t,vector<double> z)
 	return(temp);
 }
 
-//blastoff::step function*******************************
-vector<double> blastoff::step(double tt, vector<double> z)
+//simulation::step function*******************************
+vector<double> simulation::step(double tt,vector<double> Zin)
 {
 	/*
 		\brief calculate one time-step
@@ -558,21 +562,14 @@ vector<double> blastoff::step(double tt, vector<double> z)
 		\return whether the simulation should continue
 	*/
 	
-	EqMotionData SuperZ = SolveEqMotion(tt,z);
-	vector<double> Z;
-	Z.push_back(SuperZ.Xdot.e1);
-	Z.push_back(SuperZ.Xdot.e2);
-	Z.push_back(SuperZ.Xdot.e3);
-	Z.push_back(SuperZ.Qdot.e1);
-	Z.push_back(SuperZ.Qdot.e2);
-	Z.push_back(SuperZ.Qdot.e3);
-	Z.push_back(SuperZ.Qdot.e4);
-	Z.push_back(SuperZ.Force.e1);
-	Z.push_back(SuperZ.Force.e2);
-	Z.push_back(SuperZ.Force.e3);
-	Z.push_back(SuperZ.Torque.e1);
-	Z.push_back(SuperZ.Torque.e2);
-	Z.push_back(SuperZ.Torque.e3);
+	EqMotionData SuperZ=SolveEqMotion(tt,Zin);
 
-	return(Z);
+	vector<double> Zout;
+
+	Zout.push_back(SuperZ.Xdot.e1);		Zout.push_back(SuperZ.Xdot.e2);		Zout.push_back(SuperZ.Xdot.e3);
+	Zout.push_back(SuperZ.Qdot.e1);		Zout.push_back(SuperZ.Qdot.e2);		Zout.push_back(SuperZ.Qdot.e3);	Zout.push_back(SuperZ.Qdot.e4);
+	Zout.push_back(SuperZ.Force.e1);	Zout.push_back(SuperZ.Force.e2);	Zout.push_back(SuperZ.Force.e3);
+	Zout.push_back(SuperZ.Torque.e1);	Zout.push_back(SuperZ.Torque.e2);	Zout.push_back(SuperZ.Torque.e3);
+
+	return(Zout);
 }
