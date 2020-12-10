@@ -1,8 +1,10 @@
 # CambridgeRocketrySimulator
 
 This is a fork of Simon Box's Cambridge Rocketry Simulator to look into
-active flight stability through
+active flight instrumentation and control, particularly 
 
+-	launch detect
+-	apogee detection
 -	thrust vectoring
 -	fin actuation
 -	dynamic drag control
