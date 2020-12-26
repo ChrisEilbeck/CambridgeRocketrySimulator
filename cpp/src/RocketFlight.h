@@ -6,7 +6,6 @@
 	%## Created: 2008-05-27
 */
 
-//RocketFlight.h
 #ifndef RocketFlight_H
 	#define RocketFlight_H
 
@@ -24,25 +23,28 @@
 	class Rocket_Flight
 	{
 		public:
-			INTAB
-				IntabTR, // first stage
-				IntabBS, // booster stage
-				IntabUS; // second stage
-			vector3	X0; // initial start vector
-			double
-				RL, // rail length
-				Az, // azimuth
-				De, // Declination Angle
-				Tspan,
-				Tsep,
-				IgDelay; // ignition delay
-			bool
-				ballisticfailure,
-				ShortData;
-				string FilePath;
+			INTAB IntabTR;	// first stage
+			INTAB IntabBS;	// booster stage
+			INTAB IntabUS;	// second stage
+			
+			vector3	X0;		// initial start vector
+			
+			double RL;		// rail length
+			double Az;		// azimuth
+			double De;		// Declination Angle
+			double Tspan;
+			double Tsep;
+			double IgDelay; // ignition delay
+
+			bool ballisticfailure;
+			bool ShortData;
+			
+			string FilePath;
+			
 			Rocket_Flight();
 			Rocket_Flight(INTAB);
 			Rocket_Flight(INTAB, INTAB, INTAB, double, double);
+			
 			// void InitialConditionsCalc(void);
 			vector<double> getInitialTime(void);
 			vector<double> getInitialState(double sigmaDeclinationAngle);
@@ -60,5 +62,5 @@
 			double getDeploymentAltitude(INTAB thisINTAB);
 			double SampleTruncated (double mean, double sigma, double truncateSigma);
 	};
-
+	
 #endif

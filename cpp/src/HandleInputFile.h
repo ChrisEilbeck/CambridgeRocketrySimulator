@@ -1,15 +1,14 @@
 /*
 	%## Copyright (C) 2008 S.Box
 	%## HandleInputFile.h
-
+	
 	%## Author: S.Box
 	%## Created: 2008-05-27
 */
 
-//HandleInputfile.h
 #ifndef HandleInputFile_H
 	#define HandleInputFile_H
-
+	
 	#include <string>
 	#include <vector>
 	#include "vectorops.h"
@@ -36,6 +35,7 @@
 				
 			//Construnctor
 			HandleInputFile(string);
+			
 		private:
 			//Functions
 			void DealWithOSF();

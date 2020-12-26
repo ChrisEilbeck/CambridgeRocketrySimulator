@@ -139,4 +139,11 @@
 			bool stop_flag(double,vector<double>);
 	};
 	
+	class flightcontroller
+	{
+		
+		
+		
+	};
+	
 #endif

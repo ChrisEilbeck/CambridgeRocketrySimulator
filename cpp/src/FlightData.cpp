@@ -11,11 +11,11 @@
 FlightDataShort FlightDataShort::operator + (FlightDataShort added)
 {
 	FlightDataShort Temp = *this;
-
+	
 	Temp.time.insert(Temp.time.end(), added.time.begin(), added.time.end());
 	Temp.events.insert(Temp.events.end(), added.events.begin(), added.events.end());
 	Temp.X.insert(Temp.X.end(), added.X.begin(), added.X.end());
-
+	
 	return(Temp);
 }
 
@@ -241,3 +241,4 @@ void FlightDataLong::SpeedAndG(double* Sp,double* Gp)
 	*Sp = MaxSpeed;
 	*Gp = Maxg;
 }
+

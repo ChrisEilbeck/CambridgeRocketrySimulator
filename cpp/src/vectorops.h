@@ -15,6 +15,7 @@ for the "vector" class in the standard c++ library*/
 	//Headers******************************************
 	#include<iostream>
 	#include<vector>
+	
 	using namespace std;
 	//*************************************************
 

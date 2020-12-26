@@ -1,16 +1,15 @@
 /*
-%## Copyright (C) 2008 S.Box
-%## MonteFy.cpp
+	%## Copyright (C) 2008 S.Box
+	%## MonteFy.cpp
 
-%## Author: S.Box
-%## Created: 2008-05-27
+	%## Author: S.Box
+	%## Created: 2008-05-27
 */
-
-//MonteFy.h
 
 #include "MonteFy.h"
 
-MonteFy::MonteFy(INTAB I1, string FileName) {
+MonteFy::MonteFy(INTAB I1, string FileName)
+{
 	SinTab = I1;
 	boost::property_tree::xml_parser::read_xml(FileName,PropTree);
 
@@ -31,33 +30,34 @@ MonteFy::MonteFy(INTAB I1, string FileName) {
 	ReadInMatrix(&PHI,"PHI",121,15);
 }
 
-void MonteFy::ReadInVector(boost::numeric::ublas::vector<double> * V1,string Name, int d1){
-
+void MonteFy::ReadInVector(boost::numeric::ublas::vector<double> * V1,string Name, int d1)
+{
 	vector<string> MuS;
-
+	
 	string XMLString = "Uncertainty.StochasticCoefficients.";
 	XMLString += Name;
 	string MuLS = PropTree.get<string>(XMLString);
-
+	
 	boost::algorithm::split(MuS,MuLS,boost::algorithm::is_any_of(",;"));
 	MuS.pop_back();
-
+	
 	boost::numeric::ublas::vector<double> D1 (d1);
-
+	
 	unsigned i = 0;
-	BOOST_FOREACH(string s, MuS){
-
+	BOOST_FOREACH(string s, MuS)
+	{
 		D1(i) = boost::lexical_cast<double>(s);
 		i++;
 	}
+	
 	*V1=D1;
-
 }
 
-void MonteFy::ReadInMatrix(boost::numeric::ublas::matrix<double> * M1,string Name,int d1, int d2){
+void MonteFy::ReadInMatrix(boost::numeric::ublas::matrix<double> * M1,string Name,int d1, int d2)
+{
 	vector<string> Line;
 	vector<string> Element;
-
+	
 	string XMLstring = "Uncertainty.StochasticCoefficients.";
 	XMLstring += Name;
 

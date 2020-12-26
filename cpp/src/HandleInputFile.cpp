@@ -20,7 +20,8 @@ HandleInputFile::HandleInputFile(std::string FileName)
 		\return void
 	*/
 	
-	try{
+	try
+	{
 		//Read data from file into property tree
 		boost::property_tree::xml_parser::read_xml(FileName,PropTree);
 	}
@@ -75,33 +76,33 @@ HandleInputFile::HandleInputFile(std::string FileName)
 void HandleInputFile::DealWithOSF()
 {
 	// deals with nominal flight, single stage rocket
-	Rocket_Flight RF1 = OneStageSetUp();
-	WriteData = RF1.OneStageFlight();
+	Rocket_Flight RF1=OneStageSetUp();
+	WriteData=RF1.OneStageFlight();
 };
 
 void HandleInputFile::DealWithTSF()
 {
 	// deals with nominal flight, two stage rocket
-	Rocket_Flight RF1 = TwoStageSetUp();
-	WriteData = RF1.TwoStageFlight();
+	Rocket_Flight RF1=TwoStageSetUp();
+	WriteData=RF1.TwoStageFlight();
 };
 
 void HandleInputFile::DealWithOSM()
 {
 	// deals with monte carlo runs, one stage rocket
-	Rocket_Flight RF1 = OneStageSetUp();
+	Rocket_Flight RF1=OneStageSetUp();
 	
-	int NoI = PropTree.get<int>("SimulationInput.SimulationSettings.NumberOfIterations");
-	WriteData = RF1.OneStageMonte(NoI);
+	int NoI=PropTree.get<int>("SimulationInput.SimulationSettings.NumberOfIterations");
+	WriteData=RF1.OneStageMonte(NoI);
 };
 
 void HandleInputFile::DealWithTSM()
 {
 	// deals with monte carlo runs, two stage rocket
-	Rocket_Flight RF1 = TwoStageSetUp();
+	Rocket_Flight RF1=TwoStageSetUp();
 	
-	int NoI = PropTree.get<int>("SimulationInput.SimulationSettings.NumberOfIterations");
-	WriteData = RF1.TwoStageMonte(NoI);
+	int NoI=PropTree.get<int>("SimulationInput.SimulationSettings.NumberOfIterations");
+	WriteData=RF1.TwoStageMonte(NoI);
 };
 
 Rocket_Flight HandleInputFile::OneStageSetUp()
@@ -113,7 +114,7 @@ Rocket_Flight HandleInputFile::OneStageSetUp()
 	
 	Rocket_Flight RF1(IT);
 	
-	RF1 = TestMiscData(RF1);
+	RF1=TestMiscData(RF1);
 	RF1.setFilePath(FilePath);
 	
 	return(RF1);
