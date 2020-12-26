@@ -470,7 +470,7 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 	//Torque vector calculations************************************************
 	vector3 Tqf=momaxcp*FNcp*Xbar;								//Torque due to normal force
 	vector3 Tqm=omegaax2*Cda1*omega;							//Torgue due to motor plume
-	vector3 Tqp=Tqf+Tqm;
+	vector3 Tqp;
 	//**************************************************************************
 	
 	//quaternion derivative*****************************************************
@@ -486,6 +486,9 @@ EqMotionData ascent::SolveEqMotion(double tt,vector<double>z)
 	
 	// sum the forces acting on the rocket
 	Ft=Tt+FAt+FNt+gt;
+	
+	// sum the torques acting on the rocket
+	Tqp=Tqf+Tqm;
 	
 	if ( (Ft.e3 <= 0.0) && ((Xt - X0).mag() < 0.1) ) 
 	{
